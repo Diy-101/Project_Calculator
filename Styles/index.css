@@ -17,6 +17,8 @@ body {
 #windowInput {
     height: 100px;
     font-size: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 #operations {
@@ -27,6 +29,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
+    padding: 30px;
+    background-color: #a7a7a7;
+    border-radius: 10px;
 }
 
 #numbers {
@@ -48,5 +53,11 @@ body {
     height: 100px;
     margin: 0px;
     font-size: 50px;
+    background-color: #D3D3D3;
+    border-radius: 3px;
+}
+
+#zero {
+    width: 100%;
 }
 
